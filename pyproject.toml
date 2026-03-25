@@ -1,0 +1,27 @@
+[project]
+name = "chatbot-ex-1"
+version = "0.1.0"
+description = "1일 챗봇 개발 워크샵 교육 자료"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # 기본
+    "openai>=1.60.0",
+    "python-dotenv>=1.1.0",
+    "streamlit>=1.49.0",
+    # LangChain
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-openai>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-classic>=0.1.0",
+    "langchain-text-splitters>=0.3.0",
+    "langchain-chroma>=0.2.0",
+    # RAG / 벡터DB
+    "faiss-cpu>=1.12.0",
+    "pymupdf>=1.26.0",
+    "numpy>=1.26.0",
+    # Tool
+    "wikipedia>=1.4.0",
+    "duckduckgo-search>=8.1.1",
+]

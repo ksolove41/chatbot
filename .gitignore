@@ -1,0 +1,8 @@
+.env
+.venv
+CLAUDE.MD
+
+# RAG 관련 임시 폴더들
+faiss_index/
+PDF_이미지/
+PDF_임시폴더/

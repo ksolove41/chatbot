@@ -1,6 +1,7 @@
 .env
 .venv
 CLAUDE.MD
+__pycache__/
 
 # RAG 관련 임시 폴더들
 faiss_index/

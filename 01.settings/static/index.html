@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>사내 챗봇</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">사내 챗봇</header>
+
+    <div id="messages" class="chat-messages"></div>
+
+    <form id="chat-form" class="chat-input-area">
+      <input
+        id="message-input"
+        type="text"
+        placeholder="메시지를 입력하세요..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="send-button">전송</button>
+    </form>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
